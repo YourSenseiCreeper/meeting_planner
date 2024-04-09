@@ -1,0 +1,17 @@
+.grid {
+    border: 1px solid black;
+}
+
+.grid div {
+    border: 1px solid black;
+    height: 50px;
+    width: 100%;
+}
+
+.grid div:hover {
+    background-color: lightgray;
+}
+
+.grid div.selected {
+    background-color: green;
+}
