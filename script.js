@@ -11,7 +11,7 @@ function add(element, date) {
 }
 
 async function submit() {
-    let response = await fetch('http://echo.jsontest.com/key/value/one/two');
+    let response = await fetch('https://jsonplaceholder.typicode.com/todos/1');
     let data = await response.json();
     console.log(data);
 }
